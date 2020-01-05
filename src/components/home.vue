@@ -11,10 +11,10 @@
           <el-menu-item index="/index">
             <span slot="title">Home</span>
           </el-menu-item>
-          <el-menu-item index="2">Data sets</el-menu-item>
-          <el-menu-item index="3">Algorithms</el-menu-item>
-          <el-menu-item index="4">Researchers</el-menu-item>
-          <el-menu-item index="5">Publications</el-menu-item>
+          <el-menu-item index="/datasets">Data sets</el-menu-item>
+          <el-menu-item index="/algorithms">Algorithms</el-menu-item>
+          <el-menu-item index="/researchers">Researchers</el-menu-item>
+          <el-menu-item index="/publications">Publications</el-menu-item>
           <el-menu-item index="/aboutus">
             <span slot="title">About Us</span>
           </el-menu-item>
