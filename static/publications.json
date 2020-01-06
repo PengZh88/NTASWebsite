@@ -1,0 +1,58 @@
+{
+  "pubs": [
+    {
+      "date": "December 2019",
+      "title": "A novel multi-resolution representation for time series sensor data analysis",
+      "info": "Published in Soft Computing (CCF B), SCI Jorunal",
+      "authors": "Yupeng Hu, Cun ji, Qingke Zhang, Lin Chen, Peng Zhan, Xueqing Li"
+    },
+    {
+      "date": "October 2019",
+      "title": "基于特征符号表示的网络异常流量检测算法",
+      "info": "Accepted by Journal of Zhejiang University (Engineering Science), EI Journal",
+      "authors": "展鹏, 陈琳, 曹鲁慧"
+    },
+    {
+      "date": "August 2019",
+      "title": "Efficient continuous KNN join processing for real-time recommendation",
+      "info": "Published in Personal and Ubiquitous Computing (CCF C), SCI Jorunal",
+      "authors": "Yupeng Hu, Chong Yang, Peng Zhan, Jia Zhao, Yujun Li, Xueqing Li"
+    },
+    {
+      "date": "August 2019",
+      "title": "Efficient Search of the Optimal Prefix and Suffix Invariant Size for Dynamic Time Warping",
+      "info": "Accepted by HPCC 2019 (CCF C)",
+      "authors": "Peng Zhan, Yupeng Hu, Lin Chen, Wei Luo, Xueqing Li"
+    },
+    {
+      "date": "August 2019",
+      "title": "A Novel Similarity Search Approach for Streaming Time Series",
+      "info": "Accepted by ISAI 2019",
+      "authors": "Yiming Ding, Wei Luo, Yufei Zhao, Zhen Li, Peng Zhan, Xueqing Li"
+    },
+    {
+      "date": "August 2019",
+      "title": "Dynamic Adaptive Piecewise Linear Representation Approach Based on Streaming Time Series",
+      "info": "Accepted by ISAI 2019",
+      "authors": "Wei Luo, Peng Zhan, Qi Zhang, Cun Ji, Jiecai Zheng, Xueqing Li"
+    },
+    {
+      "date": "June 2019",
+      "title": "Feature-based Online Segmentation Algorithm for Streaming Time Series Representation and Similarity Search",
+      "info": "Published in International Journal of Pattern Recognition and Artificial Intelligence (CCF C), SCI Jorunal",
+      "authors": "Peng Zhan, Changchang Sun, Yupeng Hu, Wei Luo, Jiecai Zheng, Xueqing Li"
+    },
+    {
+      "date": "April 2019",
+      "title": "Multi-resolution Representation with Recurrent Neural Networks Application for Streaming Time Series in IoT",
+      "info": "Published in Computer Networks (CCF C), SCI Jorunal",
+      "authors": "Yupeng Hu, Pengjie Ren, Wei Luo, Peng Zhan, Xueqing Li"
+    },
+    {
+      "date": "January 2019",
+      "title": "Feature-based Online Segmentation Algorithm for Streaming Time Series (Short Paper): Methods and Protocols",
+      "info": "Accepted by CollaborateCom 2018",
+      "authors": "Peng Zhan, Yupeng Hu, Wei Luo, Yang Xu, Qi Zhang, Xueqing Li"
+    }
+  ]
+}
