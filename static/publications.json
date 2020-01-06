@@ -53,6 +53,36 @@
       "title": "Feature-based Online Segmentation Algorithm for Streaming Time Series (Short Paper): Methods and Protocols",
       "info": "Accepted by CollaborateCom 2018",
       "authors": "Peng Zhan, Yupeng Hu, Wei Luo, Yang Xu, Qi Zhang, Xueqing Li"
+    },
+    {
+      "date": "November 2018",
+      "title": "Diversified Representation Approach for Time Series Using Storm",
+      "info": "Accepted by ICSESS 2018",
+      "authors": "Wei Luo, Qi Zhang, Cun Ji, Peng Zhan, Jiecai Zheng, Xueqing Li"
+    },
+    {
+      "date": "November 2018",
+      "title": "Efficient Similarity Searching Approach for Streaming Time Series",
+      "info": "Accepted by ICSESS 2018",
+      "authors": "Qi Zhang, Wei Luo, Ziyu Hu, Peng Zhan, Yan Jin, Xueqing Li"
+    },
+    {
+      "date": "October 2018",
+      "title": "Feature-Based Dividing Symbolic Time Series Representation for Streaming Data Processing",
+      "info": "Accepted by ITME 2018",
+      "authors": "Peng Zhan, Yupeng Hu, Qi Zhang, Jiecai Zheng, Xueqing Li"
+    },
+    {
+      "date": "April 2018",
+      "title": "A Novel Segmentation and Representation Approach for Streaming Time Series",
+      "info": "Published in IEEE Access, SCI Journal",
+      "authors": "Yupeng Hu, Peiyuan Guan, Peng Zhan, Yiming Ding, Xueqing Li"
+    },
+    {
+      "date": "March 2018",
+      "title": "边缘计算应用：传感数据异常实时检测算法",
+      "info": "Published in Journal of Computer Research and Development, EI Journal",
+      "authors": "Qi Zhang, Yupeng Hu, Cun Ji, Peng Zhan, Xueqing Li"
     }
   ]
 }

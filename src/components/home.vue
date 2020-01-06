@@ -51,6 +51,11 @@
         isHome: true
       }
     },
+    created() {
+      var currentPath = this.$route.path;
+      this.isHome = currentPath === '/' || currentPath === '/index';
+      this.activeIndex = currentPath;
+    },
     methods: {
       handleSelect(key, keyPath) {
         this.isHome = key === '/' || key === '/index';
