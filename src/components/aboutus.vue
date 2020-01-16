@@ -1,13 +1,19 @@
 <template>
   <div>
-    123
+
   </div>
 </template>
 
 <script>
-    export default {
-        name: "AboutUs"
+
+  export default {
+    name: "AboutUs",
+    data: function () {
+      return {
+
+      }
     }
+  }
 </script>
 
 <style scoped>

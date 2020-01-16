@@ -33,7 +33,7 @@
     },
     methods: {
       getPubs() {
-          this.$axios.get('http://localhost:8080/static/publications.json').then((res) => {
+          this.$axios.get('/static/publications.json').then((res) => {
             this.pubs = res.data.pubs
           })
       }
