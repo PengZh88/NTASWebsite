@@ -35,7 +35,7 @@
         <router-view/>
       </el-main>
       <el-footer>
-        Copyright &copy; 2020 Shandong University Informationzation Office，All Rights Reserved
+        Copyright &copy; 2020 Informationzation Office, Shandong University. All Rights Reserved
       </el-footer>
     </el-container>
   </div>
