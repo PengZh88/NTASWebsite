@@ -4,6 +4,8 @@
       <el-col :span="18" :offset="3">
         <el-image style="width: 100%; height: 300px" :fit="fill" :src="picaboutusbg"></el-image>
       </el-col>
+    </el-row>
+    <el-row :gutter="20">
       <el-col :span="18" :offset="3">
         <div style="margin-top: 20px;">
           <span class="jstitle">项目介绍</span>
@@ -13,21 +15,26 @@
           </div>
         </div>
       </el-col>
+    </el-row>
+    <el-row :gutter="20">
       <el-col :span="18" :offset="3">
         <div style="margin-top: 20px;">
-          <span class="jstitle">研究团队</span>
+          <span class="jstitle">研究内容</span>
           <el-divider></el-divider>
           <div>
-            asdds
-          </div>
-        </div>
-      </el-col>
-      <el-col :span="18" :offset="3">
-        <div style="margin-top: 20px;">
-          <span class="jstitle">研究方向</span>
-          <el-divider></el-divider>
-          <div>
-            asdds
+            <el-row :gutter="20">
+              <el-col :span="8">
+                <div class="jscontent">
+                  本项目通过将采集到的网络流量数据转换成时间序列模型，研究并利用时间序列数据挖掘相关算法，对IPv6网络流量数据进行挖掘分析。
+                </div>
+                <div class="jscontent">
+                  主要涉及到数据降维表示、相似性检索、异常检测以及数据可视化的相关研究内容。
+                </div>
+              </el-col>
+              <el-col :span="16">
+                <el-image style="width: 100%; height: 300px" :fit="fill" :src="picpicyjnr"></el-image>
+              </el-col>
+            </el-row>
           </div>
         </div>
       </el-col>
@@ -37,12 +44,13 @@
 
 <script>
   import aboutusbg from '../assets/aboutusbg.png'
-
+  import picyjnr from '../assets/yjnr.png'
   export default {
     name: "AboutUs",
     data: function () {
       return {
-        picaboutusbg: aboutusbg
+        picaboutusbg: aboutusbg,
+        picpicyjnr: picyjnr
       }
     }
   }

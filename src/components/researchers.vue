@@ -66,7 +66,7 @@
     <el-row :gutter="20">
       <el-col :span="8">
         <div style="float: right">
-          <el-image style="width: 180px; height: 251px" :fit="fill" :src="piczp"></el-image>
+          <el-image style="width: 180px; height: 251px" :fit="fill" :src="picxhr"></el-image>
         </div>
       </el-col>
       <el-col :span="16">
@@ -122,11 +122,13 @@
 
 <script>
   import zhanpeng from '../assets/authors/zhanpeng.jpg'
+  import xuhaoran from '../assets/authors/xuhaoran.jpg'
     export default {
         name: "researchers",
       data: function () {
         return {
-          piczp: zhanpeng
+          piczp: zhanpeng,
+          picxhr: xuhaoran
         }
       }
     }
