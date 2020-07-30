@@ -1,6 +1,30 @@
 {
   "pubs": [
     {
+      "date": "August 2020",
+      "title": "Representation of BVMD features via multitask compressive sensing for SAR target classification",
+      "info": "Published in Remote Sensing Letters, SCI Journal",
+      "authors": "Lin Chen, Peng Zhan, Teng Li, Xueqing Li"
+    },
+    {
+      "date": "July 2020",
+      "title": "Temporal representation learning for time series classification",
+      "info": "Published in Neural Computing and Applications, SCI Journal",
+      "authors": "Yupeng Hu, Peng Zhan, Yang Xu, Jia Zhao, Yujun Li, Xueqing Li"
+    },
+    {
+      "date": "July 2020",
+      "title": "FCAD: Feature-based Clipped Representation for Time Series Anomaly Detection",
+      "info": "Accepted by ICISCAE 2020",
+      "authors": "Peng Zhan, Haoran Xu, Lin Chen"
+    },
+    {
+      "date": "June 2020",
+      "title": "A Novel Network Traffic Anomaly Detection Approach Using the Optimal ψ-DTW",
+      "info": "Accepted by ICSESS 2020",
+      "authors": "Peng Zhan, Haoran Xu, Wei Luo, Xueqing Li"
+    },
+    {
       "date": "December 2019",
       "title": "A novel multi-resolution representation for time series sensor data analysis",
       "info": "Published in Soft Computing (CCF B), SCI Jorunal",
@@ -9,7 +33,7 @@
     {
       "date": "October 2019",
       "title": "基于特征符号表示的网络异常流量检测算法",
-      "info": "Accepted by Journal of Zhejiang University (Engineering Science), EI Journal",
+      "info": "Published in Journal of Zhejiang University (Engineering Science), EI Journal",
       "authors": "展鹏, 陈琳, 曹鲁慧, 李学庆"
     },
     {
