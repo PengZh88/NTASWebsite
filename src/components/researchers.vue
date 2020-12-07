@@ -9,7 +9,7 @@
       <el-col :span="16">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span>Peng Zhan (Ph.D Candidate)</span>
+            <span>Peng Zhan (Ph.D)</span>
           </div>
           <el-row :gutter="30">
             <el-col :span="8">
@@ -24,7 +24,7 @@
               <div class="fontbold">Degree:</div>
             </el-col>
             <el-col :span="16">
-              <div>Master Degree in Software Engineering</div>
+              <div>Doctoral Degree in Software Engineering</div>
             </el-col>
           </el-row>
           <el-row :gutter="30">
