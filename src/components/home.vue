@@ -26,7 +26,10 @@
             <el-col :span="16" :offset="4">
               <el-carousel trigger="click" height="600px">
                 <el-carousel-item v-for="item in 4" :key="item">
-                  <h3 class="small">{{ item }}</h3>
+                  <el-image
+                    style="width: 100%"
+                    :src="meimgs"
+                    :fit="fit"></el-image>
                 </el-carousel-item>
               </el-carousel>
             </el-col>
@@ -42,13 +45,15 @@
 </template>
 
 <script>
+  import meimgs from '../assets/MSPARAD.png'
   export default {
     name: 'Home',
     data() {
       return {
         msg: '',
         activeIndex: '/index',
-        isHome: true
+        isHome: true,
+        meimgs: meimgs
       }
     },
     created() {
