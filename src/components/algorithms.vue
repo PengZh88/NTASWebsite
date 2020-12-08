@@ -13,7 +13,7 @@
       <el-main class="mainalgs">
 
         <el-table
-          :data="tableData.filter(data => !search || data.name.toLowerCase().includes(search.toLowerCase()))"
+          :data="tableData.filter(data => !search || data.alg.toLowerCase().includes(search.toLowerCase()))"
           style="width: 100%">
           <el-table-column
             label="Algorithm"
@@ -38,13 +38,25 @@
             <template slot-scope="scope">
               <el-button
                 size="mini"
-                @click="handleEdit(scope.$index, scope.row)">View</el-button>
+                @click="handleEdit(scope.$index, scope.row)">View
+              </el-button>
             </template>
           </el-table-column>
         </el-table>
 
       </el-main>
     </el-container>
+
+    <el-dialog
+      :title="diaTitle"
+      :visible.sync="dialogVisible"
+      width="30%"
+      :before-close="handleClose" @open="diaOpen">
+      <span>这是一段信息</span>
+      <span slot="footer" class="dialog-footer">
+        <el-button type="primary" @click="dialogVisible = false">Close</el-button>
+      </span>
+    </el-dialog>
   </div>
 </template>
 
@@ -78,15 +90,19 @@ export default {
         algtype: 'Clipped Distance Based',
         algyear: '2020'
       }],
-      search: ''
+      search: '',
+      dialogVisible: false,
+      diaTitle: 'Dialog Title'
     }
   },
   methods: {
     handleEdit(index, row) {
       console.log(index, row);
+      this.dialogVisible = true;
+      this.diaTitle = row.alg;
     },
-    handleDelete(index, row) {
-      console.log(index, row);
+    diaOpen: function() {
+      console.log("I am dialog, I am opened!");
     }
   }
 }
@@ -101,6 +117,7 @@ export default {
   width: 80%;
   margin: auto;
 }
+
 body > .el-container {
   margin-bottom: 40px;
 }
