@@ -6,7 +6,7 @@
           Algorithms
         </div>
         <div style="clear: left;"></div>
-        <div style="float: left; margin-left: 30px; margin-top: 10px;">
+        <div style="float: left; margin-left: 30px;">
           Select an algorithm to view more information about it.
         </div>
       </el-header>

@@ -24,7 +24,7 @@
         <div v-if="isHome">
           <el-row :gutter="20">
             <el-col :span="16" :offset="4">
-              <el-carousel trigger="click" height="600px">
+              <el-carousel trigger="click">
                 <el-carousel-item v-for="item in 4" :key="item">
                   <el-image
                     style="width: 100%"
@@ -83,11 +83,10 @@
     line-height: 60px;
   }
 
-  .el-carousel__item h3 {
+  .el-carousel__item {
     color: #475669;
     font-size: 14px;
     opacity: 0.75;
-    line-height: 150px;
     margin: 0;
   }
 
