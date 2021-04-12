@@ -24,6 +24,10 @@
             prop="algtype">
           </el-table-column>
           <el-table-column
+            label="Authors"
+            prop="authors">
+          </el-table-column>
+          <el-table-column
             label="Year"
             prop="algyear">
           </el-table-column>
@@ -68,27 +72,39 @@ export default {
       tableData: [{
         alg: 'MSPAR-AD',
         algtype: 'Distance Based',
-        algyear: '2020'
+        algyear: '2020',
+        authors: '',
+        publications: ''
       }, {
         alg: 'KTPC-AD',
         algtype: 'Clipped Distance Based',
-        algyear: '2020'
+        algyear: '2020',
+        authors: '',
+        publications: ''
       }, {
         alg: 'EMR',
         algtype: 'Multi-resolution',
-        algyear: '2020'
+        algyear: '2020',
+        authors: '',
+        publications: ''
       }, {
         alg: 'EST',
         algtype: 'Shapelets Based',
-        algyear: '2020'
+        algyear: '2020',
+        authors: '',
+        publications: ''
       }, {
         alg: 'TORRENT',
         algtype: 'Deep Learning',
-        algyear: '2020'
+        algyear: '2020',
+        authors: '',
+        publications: ''
       }, {
         alg: 'FCAD',
         algtype: 'Clipped Distance Based',
-        algyear: '2020'
+        algyear: '2020',
+        authors: '',
+        publications: ''
       }],
       search: '',
       dialogVisible: false,

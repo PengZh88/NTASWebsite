@@ -41,7 +41,7 @@
                   <span>Works and Papers</span>
                 </div>
                 <div class="card-content">
-                  <p>This website is an ongoing project to develop a comprehensive system for research into analysis of IPv6 network traffic data based on time series data mining (CERNET Innovation Project NGII20190109).</p>
+                  <p>This website is an ongoing project to develop a comprehensive system for research into analysis of IPv6 network traffic data based on time series data mining (CERNET Innovation Project NGII20190109). We are in the process of updating the codes of this system.</p>
                 </div>
               </el-card>
             </el-col>
@@ -73,7 +73,7 @@
                   <span>Datasets</span>
                 </div>
                 <div class="card-content">
-                  <p>For detail, please refer to <a :href="datasetsurl">Data sets</a>.</p>
+                  <p>For details, please refer to <a :href="datasetsurl">Datasets</a>.</p>
                 </div>
               </el-card>
             </el-col>
