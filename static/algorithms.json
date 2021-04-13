@@ -1,14 +1,28 @@
 {
   "algorithmdatas": [
     {
-      "title": "",
-      "authors": "",
-      "publication": "",
-      "year": "",
-      "volume": "",
-      "pages": "",
-      "doi": "",
-      "url": ""
+      "alg": "SPAR-AD",
+      "algtype": "Anomaly Detection",
+      "title": "SPAR: set-based piecewise aggregate representation for time series anomaly detection",
+      "authors": "Peng Zhan, Yupeng Hu, Lin Chen, Wei Luo & Xueqing Li",
+      "publication": "Science China Information Sciences",
+      "year": "2021",
+      "volume": "64",
+      "pages": "149101",
+      "doi": "doi.org/10.1007/s11432-020-3021-6",
+      "url": "https://doi.org/10.1007/s11432-020-3021-6"
+    },
+    {
+      "alg": "SPAR",
+      "algtype": "Representation",
+      "title": "SPAR: set-based piecewise aggregate representation for time series anomaly detection",
+      "authors": "Peng Zhan, Yupeng Hu, Lin Chen, Wei Luo & Xueqing Li",
+      "publication": "Science China Information Sciences",
+      "year": "2021",
+      "volume": "64",
+      "pages": "149101",
+      "doi": "doi.org/10.1007/s11432-020-3021-6",
+      "url": "https://doi.org/10.1007/s11432-020-3021-6"
     }
   ]
 }
