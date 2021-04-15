@@ -1,28 +1,16 @@
 {
   "pubs": [
     {
+      "date": "December 2020",
+      "title": "Multi-resolution Representation for Streaming Time Series Retrieval",
+      "info": "Published in nternational Journal of Pattern Recognition and Artificial Intelligence (CCF C), SCI Jorunal",
+      "authors": "Wei Luo, Yongqi Li, Fubin Yao, Shaokun Wang, Zhen Li, Peng Zhan, Xueqing Li"
+    },
+    {
       "date": "October 2020",
       "title": "Time Series Anomaly Detection Based on Kernel Turning Points Clipped Representation",
       "info": "Published in 《计算机工程与应用》, CCF C类中文科技期刊",
       "authors": "Peng Zhan, Lin Chen, Luhui Cao, Haoran Xu, Xueqing Li"
-    },
-    {
-      "date": "September 2020",
-      "title": "Multi-resolution Representation for Streaming Time Series Retrieval",
-      "info": "Published in International Journal of Pattern Recognition and Artificial Intelligence (CCF C), SCI Jorunal",
-      "authors": "Wei Luo, Yongqi Li, Fubin Yao, Shaokun Wang, Zhen Li, Peng Zhan, Xueqing Li"
-    },
-    {
-      "date": "July 2020",
-      "title": "Temporal representation learning for time series classification",
-      "info": "Published in Neural Computing and Applications, SCI Jorunal",
-      "authors": "Yupeng Hu, Peng Zhan, Yang Xu, Jia Zhao, Yujun Li, Xueqing Li"
-    },
-    {
-      "date": "June 2020",
-      "title": "SPAR: set-based  piecewise aggregate representation for time series anomaly detection",
-      "info": "Published in Science China Information Sciences (CCF B), SCI Journal",
-      "authors": "Peng Zhan, Yupeng Hu, Lin Chen, Wei Luo, Xueqing Li"
     },
     {
       "date": "August 2020",
@@ -33,7 +21,7 @@
     {
       "date": "July 2020",
       "title": "Temporal representation learning for time series classification",
-      "info": "Published in Neural Computing and Applications, SCI Journal",
+      "info": "Published in Neural Computing and Applications, SCI Jorunal",
       "authors": "Yupeng Hu, Peng Zhan, Yang Xu, Jia Zhao, Yujun Li, Xueqing Li"
     },
     {
@@ -44,9 +32,21 @@
     },
     {
       "date": "June 2020",
+      "title": "SPAR: set-based  piecewise aggregate representation for time series anomaly detection",
+      "info": "Published in Science China Information Sciences (CCF B), SCI Journal",
+      "authors": "Peng Zhan, Yupeng Hu, Lin Chen, Wei Luo, Xueqing Li"
+    },
+    {
+      "date": "June 2020",
       "title": "A Novel Network Traffic Anomaly Detection Approach Using the Optimal ψ-DTW",
       "info": "ICSESS 2020",
       "authors": "Peng Zhan, Haoran Xu, Wei Luo, Xueqing Li"
+    },
+    {
+      "date": "June 2020",
+      "title": "Representation of BVMD Features via Multitask Compressive Sensing for SAR Target Classification",
+      "info": "Published in Remote Sensing Letters, SCI Jorunal",
+      "authors": "Lin Chen, Peng Zhan, Teng Li, Xueqing Li"
     },
     {
       "date": "December 2019",
