@@ -1,136 +1,58 @@
 {
   "pubs": [
     {
+      "date": "April 2021",
+      "title": "Temporal anomaly detection on IIoT-enabled manufacturing",
+      "info": "Published in Journal of Intelligent Manufacturing",
+      "authors": "Peng Zhan, Shaokun Wang, Jun Wang, Leigang Qu, Kun Wang, Yupeng Hu, Xueqing Li"
+    },
+    {
+      "date": "April 2021",
+      "title": "SPAR: set-based  piecewise aggregate representation for time series anomaly detection",
+      "info": "Published in Science China Information Sciences",
+      "authors": "Peng Zhan, Yupeng Hu, Lin Chen, Wei Luo, Xueqing Li"
+    },
+    {
+      "date": "December 2020",
+      "title": "一种基于时序分析技术的网络异常流量检测方法及其系统",
+      "info": "发明专利",
+      "authors": "展鹏, 许浩然"
+    },
+    {
       "date": "December 2020",
       "title": "Multi-resolution Representation for Streaming Time Series Retrieval",
-      "info": "Published in nternational Journal of Pattern Recognition and Artificial Intelligence (CCF C), SCI Jorunal",
+      "info": "Published in International Journal of Pattern Recognition and Artificial Intelligence",
       "authors": "Wei Luo, Yongqi Li, Fubin Yao, Shaokun Wang, Zhen Li, Peng Zhan, Xueqing Li"
     },
     {
       "date": "October 2020",
-      "title": "Time Series Anomaly Detection Based on Kernel Turning Points Clipped Representation",
-      "info": "Published in 《计算机工程与应用》, CCF C类中文科技期刊",
-      "authors": "Peng Zhan, Lin Chen, Luhui Cao, Haoran Xu, Xueqing Li"
+      "title": "核转折点裁剪表示的时间序列异常检测算法",
+      "info": "Published in 《计算机工程与应用》",
+      "authors": "展鹏, 陈琳, 曹鲁慧, 许浩然, 李学庆"
     },
     {
-      "date": "August 2020",
-      "title": "Representation of BVMD features via multitask compressive sensing for SAR target classification",
-      "info": "Published in Remote Sensing Letters, SCI Journal",
-      "authors": "Lin Chen, Peng Zhan, Teng Li, Xueqing Li"
+      "date": "October 2020",
+      "title": "A Novel Network Traffic Anomaly Detection Approach Using the Optimal ψ-DTW",
+      "info": "ICSESS 2020",
+      "authors": "Peng Zhan, Haoran Xu, Wei Luo, Xueqing Li"
     },
     {
-      "date": "July 2020",
-      "title": "Temporal representation learning for time series classification",
-      "info": "Published in Neural Computing and Applications, SCI Jorunal",
-      "authors": "Yupeng Hu, Peng Zhan, Yang Xu, Jia Zhao, Yujun Li, Xueqing Li"
-    },
-    {
-      "date": "July 2020",
+      "date": "September 2020",
       "title": "FCAD: Feature-based Clipped Representation for Time Series Anomaly Detection",
       "info": "ICISCAE 2020",
       "authors": "Peng Zhan, Haoran Xu, Lin Chen"
     },
     {
       "date": "June 2020",
-      "title": "SPAR: set-based  piecewise aggregate representation for time series anomaly detection",
-      "info": "Published in Science China Information Sciences (CCF B), SCI Journal",
-      "authors": "Peng Zhan, Yupeng Hu, Lin Chen, Wei Luo, Xueqing Li"
-    },
-    {
-      "date": "June 2020",
-      "title": "A Novel Network Traffic Anomaly Detection Approach Using the Optimal ψ-DTW",
-      "info": "ICSESS 2020",
-      "authors": "Peng Zhan, Haoran Xu, Wei Luo, Xueqing Li"
-    },
-    {
-      "date": "June 2020",
-      "title": "Representation of BVMD Features via Multitask Compressive Sensing for SAR Target Classification",
-      "info": "Published in Remote Sensing Letters, SCI Jorunal",
-      "authors": "Lin Chen, Peng Zhan, Teng Li, Xueqing Li"
-    },
-    {
-      "date": "December 2019",
-      "title": "A novel multi-resolution representation for time series sensor data analysis",
-      "info": "Published in Soft Computing (CCF B), SCI Jorunal",
-      "authors": "Yupeng Hu, Cun ji, Qingke Zhang, Lin Chen, Peng Zhan, Xueqing Li"
+      "title": "一种基于时间序列挖掘的网络异常流量自动检测方法",
+      "info": "发明专利",
+      "authors": "展鹏, 李学庆, 许浩然, 胡宇鹏"
     },
     {
       "date": "October 2019",
       "title": "基于特征符号表示的网络异常流量检测算法",
-      "info": "Published in Journal of Zhejiang University (Engineering Science), EI Journal",
+      "info": "Published in 《浙江大学学报（工学版）》",
       "authors": "展鹏, 陈琳, 曹鲁慧, 李学庆"
-    },
-    {
-      "date": "August 2019",
-      "title": "Efficient continuous KNN join processing for real-time recommendation",
-      "info": "Published in Personal and Ubiquitous Computing (CCF C), SCI Jorunal",
-      "authors": "Yupeng Hu, Chong Yang, Peng Zhan, Jia Zhao, Yujun Li, Xueqing Li"
-    },
-    {
-      "date": "August 2019",
-      "title": "Efficient Search of the Optimal Prefix and Suffix Invariant Size for Dynamic Time Warping",
-      "info": "Accepted by HPCC 2019 (CCF C)",
-      "authors": "Peng Zhan, Yupeng Hu, Lin Chen, Wei Luo, Xueqing Li"
-    },
-    {
-      "date": "August 2019",
-      "title": "A Novel Similarity Search Approach for Streaming Time Series",
-      "info": "Accepted by ISAI 2019",
-      "authors": "Yiming Ding, Wei Luo, Yufei Zhao, Zhen Li, Peng Zhan, Xueqing Li"
-    },
-    {
-      "date": "August 2019",
-      "title": "Dynamic Adaptive Piecewise Linear Representation Approach Based on Streaming Time Series",
-      "info": "Accepted by ISAI 2019",
-      "authors": "Wei Luo, Peng Zhan, Qi Zhang, Cun Ji, Jiecai Zheng, Xueqing Li"
-    },
-    {
-      "date": "June 2019",
-      "title": "Feature-based Online Segmentation Algorithm for Streaming Time Series Representation and Similarity Search",
-      "info": "Published in International Journal of Pattern Recognition and Artificial Intelligence (CCF C), SCI Jorunal",
-      "authors": "Peng Zhan, Changchang Sun, Yupeng Hu, Wei Luo, Jiecai Zheng, Xueqing Li"
-    },
-    {
-      "date": "April 2019",
-      "title": "Multi-resolution Representation with Recurrent Neural Networks Application for Streaming Time Series in IoT",
-      "info": "Published in Computer Networks (CCF C), SCI Jorunal",
-      "authors": "Yupeng Hu, Pengjie Ren, Wei Luo, Peng Zhan, Xueqing Li"
-    },
-    {
-      "date": "January 2019",
-      "title": "Feature-based Online Segmentation Algorithm for Streaming Time Series (Short Paper): Methods and Protocols",
-      "info": "Accepted by CollaborateCom 2018",
-      "authors": "Peng Zhan, Yupeng Hu, Wei Luo, Yang Xu, Qi Zhang, Xueqing Li"
-    },
-    {
-      "date": "November 2018",
-      "title": "Diversified Representation Approach for Time Series Using Storm",
-      "info": "Accepted by ICSESS 2018",
-      "authors": "Wei Luo, Qi Zhang, Cun Ji, Peng Zhan, Jiecai Zheng, Xueqing Li"
-    },
-    {
-      "date": "November 2018",
-      "title": "Efficient Similarity Searching Approach for Streaming Time Series",
-      "info": "Accepted by ICSESS 2018",
-      "authors": "Qi Zhang, Wei Luo, Ziyu Hu, Peng Zhan, Yan Jin, Xueqing Li"
-    },
-    {
-      "date": "October 2018",
-      "title": "Feature-Based Dividing Symbolic Time Series Representation for Streaming Data Processing",
-      "info": "Accepted by ITME 2018",
-      "authors": "Peng Zhan, Yupeng Hu, Qi Zhang, Jiecai Zheng, Xueqing Li"
-    },
-    {
-      "date": "April 2018",
-      "title": "A Novel Segmentation and Representation Approach for Streaming Time Series",
-      "info": "Published in IEEE Access, SCI Journal",
-      "authors": "Yupeng Hu, Peiyuan Guan, Peng Zhan, Yiming Ding, Xueqing Li"
-    },
-    {
-      "date": "March 2018",
-      "title": "边缘计算应用：传感数据异常实时检测算法",
-      "info": "Published in Journal of Computer Research and Development, EI Journal",
-      "authors": "Qi Zhang, Yupeng Hu, Cun Ji, Peng Zhan, Xueqing Li"
     }
   ]
 }

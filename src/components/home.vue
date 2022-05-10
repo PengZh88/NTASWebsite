@@ -11,7 +11,6 @@
           <el-menu-item index="/index">
             <span slot="title">Home</span>
           </el-menu-item>
-          <el-menu-item index="/datasets">Datasets</el-menu-item>
           <el-menu-item index="/algorithms">Algorithms</el-menu-item>
           <el-menu-item index="/researchers">Researchers</el-menu-item>
           <el-menu-item index="/publications">Publications</el-menu-item>
@@ -25,10 +24,10 @@
           <el-row :gutter="20">
             <el-col :span="20" :offset="2">
               <el-carousel trigger="click" height="450px">
-                <el-carousel-item v-for="item in 4" :key="item">
+                <el-carousel-item v-for="item in imagebox" :key="item.id">
                   <el-image
                     style="width: 100%; height: 100%; "
-                    :src="meimgs"
+                    :src="item.idView"
                     :fit="fit"></el-image>
                 </el-carousel-item>
               </el-carousel>
@@ -66,18 +65,6 @@
               </el-card>
             </el-col>
           </el-row>
-          <el-row :gutter="20">
-            <el-col :span="20" :offset="2">
-              <el-card class="box-card" shadow="hover">
-                <div slot="header" class="card-header">
-                  <span>Datasets</span>
-                </div>
-                <div class="card-content">
-                  <p>For details, please refer to <a :href="datasetsurl">Datasets</a>.</p>
-                </div>
-              </el-card>
-            </el-col>
-          </el-row>
         </div>
         <router-view/>
       </el-main>
@@ -90,6 +77,8 @@
 
 <script>
   import meimgs from '../assets/MSPARAD.png'
+  import naadfd from '../assets/naadfd.jpg'
+  import mrrep from '../assets/mrrep.jpg'
   export default {
     name: 'Home',
     data() {
@@ -98,9 +87,25 @@
         activeIndex: '/index',
         isHome: true,
         meimgs: meimgs,
+        naadfd: naadfd,
+        mrrep: mrrep,
         frontend: 'https://github.com/PengZh88/cernet-web',
         backend: 'https://github.com/PengZh88/cernet-back',
-        datasetsurl: '/datasets'
+        datasetsurl: '/datasets',
+        imagebox: [
+          {
+            id: 0,
+            idView: meimgs
+          },
+          {
+            id: 1,
+            idView: naadfd
+          },
+          {
+            id: 2,
+            idView: mrrep
+          }
+        ]
       }
     },
     created() {

@@ -72,7 +72,7 @@
       <el-col :span="16">
         <el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span>Haoran Xu (Ph.D Candidate)</span>
+            <span>Haoran Xu</span>
           </div>
           <el-row :gutter="30">
             <el-col :span="8">
@@ -121,8 +121,8 @@
 </template>
 
 <script>
-  import zhanpeng from '../assets/authors/zhanpeng.jpg'
-  import xuhaoran from '../assets/authors/xuhaoran.jpg'
+  import zhanpeng from '../assets/authors/bk.jpg'
+  import xuhaoran from '../assets/authors/bk.jpg'
     export default {
         name: "researchers",
       data: function () {
