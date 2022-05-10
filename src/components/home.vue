@@ -51,17 +51,6 @@
                 <div slot="header" class="card-header">
                   <span>Codes</span>
                 </div>
-                <div class="card-content">
-                  <p>There are two code repositories associated with this website.</p>
-                  <ul>
-                    <li>
-                      Frontend Code: <a :href="frontend" target="_blank">{{ frontend }}</a>
-                    </li>
-                    <li>
-                      Backend Code: <a :href="backend" target="_blank">{{ backend }}</a>
-                    </li>
-                  </ul>
-                </div>
               </el-card>
             </el-col>
           </el-row>
